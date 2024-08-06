@@ -23,7 +23,7 @@ export const siteConfig: Metadata = {
     description: "Developer",
     url: new URL("https://site-portfolio-green.vercel.app"),
     siteName: "site-portfolio",
-    images: [`https://site-portfolio-green.vercel.app/open-graph-image.jpg`],
+    images: [`https://site-portfolio-green.vercel.app`],
     locale: "en-US",
     type: "website",
   },
