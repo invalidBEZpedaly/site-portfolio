@@ -54,4 +54,5 @@ export const siteConfig: Metadata = {
 export const links = {
   github: "https://github.com/invalidBEZpedaly",
   telegram: "https://t.me/eeephemera",
+  hh: "https://hh.ru/resume/d423a0c7ff0b1095250039ed1f6a7547574944?hhtmFrom=resume_list",
 };

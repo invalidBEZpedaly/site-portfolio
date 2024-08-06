@@ -28,7 +28,7 @@ export function SiteHeader() {
                   <span className="text-base font-medium">На главную</span>
                 </div>
               </Link>
-              <Link href="/projects/practicalWorks" passHref>
+              {/* <Link href="/projects/practicalWorks" passHref>
                 <div
                   className={buttonVariants({
                     size: "sm",
@@ -37,6 +37,16 @@ export function SiteHeader() {
                 >
                   <span className="text-base font-medium">Практические работы</span>
                 </div>
+              </Link> */}
+                <Link href={links.hh} target="_blank" rel="noreferrer">
+                <div
+                  className={buttonVariants({
+                    size: "sm",
+                    variant: "link",
+                  })}
+                >
+                  <span className="text-base font-medium">Резюме hh.ru</span>
+                  </div>
               </Link>
               <Link href={links.github} target="_blank" rel="noreferrer">
                 <div

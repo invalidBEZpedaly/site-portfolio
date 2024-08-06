@@ -22,9 +22,6 @@ export default function HomePage() {
             <li>
               Знание <strong>блокчейн</strong> технологии и работы <strong>смарт-контрактов</strong>.
             </li>
-            <li>
-              Практический опыт работы с 1С:Предприятие.
-            </li>
           </ul>
 
           <h3 className="text-lg font-medium mt-2">Образование</h3>
