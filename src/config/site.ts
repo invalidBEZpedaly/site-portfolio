@@ -11,7 +11,7 @@ export const siteConfig: Metadata = {
   creator: "Zakir",
   authors: [
     {
-      name: "site-portfolio",
+      name: "Magomedov Z.",
       url: "https://site-portfolio-green.vercel.app",
     },
   ],
@@ -19,10 +19,10 @@ export const siteConfig: Metadata = {
   description: "Developer",
 
   openGraph: {
-    title: "site-portfolio",
+    title: "Magomedov Z.",
     description: "Developer",
     url: new URL("https://site-portfolio-green.vercel.app"),
-    siteName: "site-portfolio",
+    siteName: "Magomedov Z.",
     images: [`https://site-portfolio-green.vercel.app`],
     locale: "en-US",
     type: "website",
@@ -41,7 +41,7 @@ export const siteConfig: Metadata = {
   },
 
   keywords: [
-    "web development",
+    "Development",
     "Front end",
     "Nextjs",
     "Reactjs",
