@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  metadataBase: new URL("https://mohamed-lifa7.vercel.app"),
+  metadataBase: new URL("https://site-portfolio-green.vercel.app"),
   title: {
     default: "Magoemdov Z.",
     template: "%s | Magoemdov Z.",
   },
-  manifest: "https://mohamed-lifa7.vercel.app/site.webmanifest",
-  applicationName: "Mohammed-lifa7",
+  manifest: "https://site-portfolio-green.vercel.app//site.webmanifest",
+  applicationName: "site-portfolio",
   creator: "Zakir",
   authors: [
     {
-      name: "Mohammed-lifa7",
-      url: "https://mohamed-lifa7.vercel.app",
+      name: "site-portfolio",
+      url: "https://site-portfolio-green.vercel.app",
     },
   ],
   icons: [{ rel: "icon", url: "/favicon.ico" }],
-  description: "Web developer",
+  description: "Developer",
 
   openGraph: {
-    title: "Mohammed-lifa7",
-    description: "Web developer",
-    url: new URL("https://mohamed-lifa7.vercel.app"),
-    siteName: "Mohammed-lifa7",
-    images: [`https://mohamed-lifa7.vercel.app/open-graph-image.jpg`],
+    title: "site-portfolio",
+    description: "Developer",
+    url: new URL("https://site-portfolio-green.vercel.app"),
+    siteName: "site-portfolio",
+    images: [`https://site-portfolio-green.vercel.app/open-graph-image.jpg`],
     locale: "en-US",
     type: "website",
   },
