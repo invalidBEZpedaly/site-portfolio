@@ -42,7 +42,6 @@ export const siteConfig: Metadata = {
 
   keywords: [
     "Development",
-    "Front end",
     "Nextjs",
     "Reactjs",
     "Developer",
