@@ -41,12 +41,8 @@ export const siteConfig: Metadata = {
   },
 
   keywords: [
-    "Development",
     "Nextjs",
-    "Reactjs",
-    "Developer",
     "Tailwindcss",
-    "Shadcn ui",
   ],
 };
 
