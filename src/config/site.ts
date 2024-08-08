@@ -6,7 +6,7 @@ export const siteConfig: Metadata = {
     default: "Magomedov Z.",
     template: "%s | Magomedov Z.",
   },
-  manifest: "https://site-portfolio-green.vercel.app/site.webmanifest",
+  manifest: "https://site-portfolio-green.vercel.app/",
   applicationName: "site-portfolio",
   creator: "Zakir",
   authors: [
