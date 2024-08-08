@@ -12,8 +12,8 @@ const Uchenie = () => {
   return (
     <main className="container mx-auto my-4 w-full max-w-4xl">
       <section className="mt-8">
-        <h2 className="text-xl font-semibold">Основная информация</h2>
-        <ul className="list-disc list-inside mt-2">
+      <h2 className="text-xl font-semibold md:text-2xl">Основная информация</h2>
+      <ul className="list-disc list-inside mt-2">
           <li><strong>Цель проекта:</strong> Создание инновационной онлайн-платформы для дистанционного обучения</li>
           <li><strong>Функционал:</strong> Подача и проверка практических заданий, учет данных студентов, интуитивный интерфейс и система мотивации с использованием криптовалюты</li>
         </ul>
@@ -47,18 +47,20 @@ const Uchenie = () => {
               <img 
                 src="/images/hashPasswordSupabase.png"
                 alt="Password Hashing with Supabase"
-                width={900}
-                height={500} 
+                className="max-w-full h-auto" // Гарантирует, что изображение будет адаптивным
+
               />
             </picture>
           </div>
         
-          <video controls className="mt-4 w-full rounded-lg shadow-lg" preload="metadata">
-            <source src="/videos/auth.mp4" type="video/mp4" />
-            <source src="/videos/auth.webm" type="video/webm" />
-            <source src="/videos/auth.ogv" type="video/ogg" />
-            Ваш браузер не поддерживает воспроизведение видео.
-          </video>
+          <div className="video-container">
+  <video controls preload="metadata">
+    <source src="/videos/auth.mp4" type="video/mp4" />
+    <source src="/videos/auth.webm" type="video/webm" />
+    <source src="/videos/auth.ogv" type="video/ogg" />
+    Ваш браузер не поддерживает воспроизведение видео.
+  </video>
+</div>
         </div>
 
         <div className="mt-8">
@@ -96,16 +98,15 @@ const Uchenie = () => {
           </ul>
 
         </div>
-        <div className={`zoom-container ${zoomed ? 'zoomed' : ''}`} onClick={handleZoom}>
-            <picture className="img zoom">
-              <img 
-                src="/images/ERDUchenie.png"
-                alt="Password Hashing with Supabase"
-                width={900}
-                height={500} 
-              />
-            </picture>
-          </div>
+        <div className={`zoom-container ${zoomed ? 'zoomed' : ''} cursor-pointer`} onClick={handleZoom}>
+  <picture className="img zoom">
+    <img 
+      src="/images/ERDUchenie.png"
+      alt="Password Hashing with Supabase"
+      className="max-w-full h-auto" // Убедитесь, что изображение легко нажимается
+    />
+  </picture>
+</div>
       </section>
 
       <section className="mt-8">
