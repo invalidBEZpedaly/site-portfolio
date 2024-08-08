@@ -1,10 +1,10 @@
 {
-  "name": "lifa",
+  "name": "zakir",
   "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "shadcn",
-    "url": "https://twitter.com/LifaSeddik"
+    "url": "https://x.com/skochhh"
   },
   "private": true,
   "scripts": {
@@ -24,7 +24,6 @@
     "@vercel/analytics": "^1.1.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "lifa": "file:",
     "lucide-react": "^0.291.0",
     "next": "^14.0.1",
     "next-themes": "^0.2.1",
@@ -36,6 +35,7 @@
     "slick-carousel": "^1.8.1",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
+    "zakir": "file:",
     "zod": "^3.22.4"
   },
   "devDependencies": {
