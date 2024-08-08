@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 export const siteConfig: Metadata = {
   metadataBase: new URL("https://site-portfolio-green.vercel.app"),
   title: {
-    default: "Magoemdov Z.",
-    template: "%s | Magoemdov Z.",
+    default: "Magomedov Z.",
+    template: "%s | Magomedov Z.",
   },
   manifest: "https://site-portfolio-green.vercel.app//site.webmanifest",
   applicationName: "site-portfolio",
