@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  metadataBase: new URL("https://site-portfolio-green.vercel.app"),
+  metadataBase: new URL("https://site-portfolio-green.vercel.app/"),
   title: {
     default: "Magomedov Z.",
     template: "%s | Magomedov Z.",
@@ -12,7 +12,7 @@ export const siteConfig: Metadata = {
   authors: [
     {
       name: "Magomedov Z.",
-      url: "https://site-portfolio-green.vercel.app",
+      url: "https://site-portfolio-green.vercel.app/",
     },
   ],
   icons: [{ rel: "icon", url: "/favicon.ico" }],
@@ -21,9 +21,9 @@ export const siteConfig: Metadata = {
   openGraph: {
     title: "Magomedov Z.",
     description: "Developer",
-    url: new URL("https://site-portfolio-green.vercel.app"),
+    url: new URL("https://site-portfolio-green.vercel.app/"),
     siteName: "Magomedov Z.",
-    images: [`https://site-portfolio-green.vercel.app`],
+    images: [`https://site-portfolio-green.vercel.app/`],
     locale: "en-US",
     type: "website",
   },
