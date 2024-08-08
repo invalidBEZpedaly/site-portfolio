@@ -6,6 +6,7 @@ import { buttonVariants } from '../ui/button';
 import { links } from '@/config/site';
 import { FaTelegramPlane } from 'react-icons/fa';
 import { Icons } from '../icons';
+import { ThemeToggle } from '../theme/theme-toggle';
 
 export function SiteHeader() {
   return (
@@ -57,8 +58,11 @@ export function SiteHeader() {
               </div>
             </Link>
           </div>
+          <ThemeToggle />
+
           <HamburgerMenu />
         </div>
+
         <Separator />
       </header>
     </>
